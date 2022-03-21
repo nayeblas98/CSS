@@ -1,0 +1,627 @@
+body {
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 60px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+header{
+    background-color: lightblue;
+    }
+
+.title {
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul{
+    list-style: none;
+    margin-right: 90;
+    margin-top: 1px;
+}
+
+.menu ul li{
+    display: inline-block;
+    float: right;
+    display: block;
+}
+
+.menu ul li a{
+    color:gray;
+    text-decoration: none;
+    padding: 38px;
+    font-weight:700;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.Subtitle1{
+    font-size: 65px;
+    text-align: left;
+    margin-top: 130px;
+    color:darkblue;
+    font-weight: bold;  
+}
+
+.Paragraph1{
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+    font-weight:400; 
+}
+
+.Enfermera {
+    position: relative;
+    top: -16cm;
+    right: -100px;
+    float: right; 
+}
+
+input.Imagen1{
+    vertical-align: top;
+}
+
+.icono{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+img.image{
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.formulario {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formulario1 {
+    color: darkgray;
+    font-size: 15px;
+    font-weight:600;
+}
+
+img.icono1{
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.formulario1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 120px;
+    right: 80p;
+}
+
+.formulario1 ul li{
+    display: inline-block;
+    float: left;
+    display: block;
+    padding: 20px;
+}
+
+.Formulario ul li a{
+    color:gray;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.submit {
+    color: white;
+}
+
+.submit {
+    font-size: 18px; 
+    color: white;
+    width: 80px;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 40px;
+    background:darkblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.vaccines{
+    margin-top: 200px;
+}
+.vaccines ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 90px;
+    right: 90p;
+}
+
+.vaccines ul li{
+    display: inline-block;
+    float: left;
+    display: block;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.Subtitle2{
+    font-size: 45px;
+    text-align: left;
+    color:darkblue;
+}
+
+.Paragraph2{
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+    font-weight:400; 
+}
+
+.boxes ul{
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    position: absolute;
+    left: 90px;
+    right: 90p;
+}
+
+.boxes ul li{
+    display: inline-block;
+    float: left;
+    display: block;
+    padding: 0px;
+}
+
+.boxes h3{
+    color: darkblue;
+    font-weight: 510;
+}
+
+.boxes p{
+    color: darkgray;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.box1 {
+    font-size: 18px; 
+    width: 215px;
+    height: 250px;
+    text-align: justify;
+    background:white;
+    padding: 25px;
+    margin: 0px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.box2 {
+    font-size: 18px; 
+    width: 215px;
+    height: 250px;
+    text-align: justify;
+    margin-right: 40px;
+    background:white;
+    padding: 25px;
+    margin: 0px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.box3 {
+    font-size: 18px; 
+    width: 215px;
+    height: 250px;
+    text-align: justify;
+    margin-right: 40px;
+    background:white;
+    padding: 25px;
+    margin: 0px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;
+}
+
+.box4 {
+    font-size: 18px; 
+    width: 215px;
+    height: 250px;
+    text-align: justify;
+    margin-right: 40px;
+    background:white;
+    padding: 25px;
+    margin: 0px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;
+}
+
+
+.box1 {
+   margin-left: 0px; 
+}
+
+.box2 {
+    margin-left: 50px;
+}
+
+.box3 {
+    margin-left: 50px;
+}
+
+.box4 {
+    margin-left: 50px;
+}
+
+.Subtitle3{
+    font-size: 40px;
+    text-align: right;
+    color:darkblue;
+    font-weight: bold; 
+    margin-right: 100px;
+}
+
+.Paragraph3{
+    font-size: 20px;
+    color: gray;
+    font-weight:400; 
+    margin-left: 660px;
+}
+
+.container2 img {
+    position: relative;
+    top: -3.2cm;
+    left: -100px;
+    float: left; 
+}
+
+.desplegar img{
+    width: 30px;
+}
+
+img.image2{
+    vertical-align: middle;
+    color: darkblue;
+}
+
+.desplegar {
+    list-style: none;
+    padding: 5px;
+    width: 540px;
+    margin-left: 650px;
+}
+
+.desplegar h5 {
+    font-size: 15px;
+    margin: 0; 
+    padding: 10px;
+    color: darkblue;
+}
+
+
+.desplegar p{
+    font-size: 15px;
+    color: darkgray;
+    width: 380px;
+    text-align: justify;
+}
+
+.desplegar .section {
+    border-bottom: 1px solid darkgray;
+    padding: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px lightgray;
+    -webkit-box-shadow: 1px 1px 3px darkblue;
+}
+
+.desplegar h5 + div{
+    display: none;
+}
+
+.desplegar :target h5 + div {
+    display: block;
+}
+
+.Subtitle4{
+    font-size: 40px;
+    text-align: left;
+    color:darkblue;
+    font-weight: bold; 
+}
+
+.Paragraph4{
+    font-size: 20px;
+    color: gray;
+    font-weight:400; 
+}
+.image3 {
+    position: relative;
+    top: -1cm;
+    right: -100px;
+    float: right; 
+}
+
+footer{
+    width: 1498px;
+    height: 300px;
+    margin-top:700px;
+    margin-left: -100px;
+    background-color: lightblue;
+}
+
+.left1 h6{
+    float: left;
+    color: blue;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+.left1 p{
+    float: left;
+    color: gray;
+    font-size: 12px;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-left: -110px;
+    margin-top: 65px;
+}
+
+.information{
+    margin-left: 25px;
+}
+
+.information h6{
+    font-size: 15px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.about ul{
+    list-style: none;
+    display: inline-block ;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 900px;
+}
+
+.about ul li{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.about ul li a{
+    color: gray;
+}
+
+.company ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1050px;
+}
+
+.company ul li{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.company ul li a{
+    color: gray;
+}
+
+.support ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1200px;
+}
+
+.support ul li{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.support ul li a{
+    color: gray;
+}
+
+.rights {
+    margin-left: 100px;
+    margin-top: 90px;
+    color: gray;
+    font-size: 15px;
+    font-style: bold;
+}
+
+.terms {
+    margin-left: 1050px;
+    margin-top: -35px;
+    color: gray;
+    font-size: 15px;
+    font-style: bold;
+}
+
+.policy {
+    margin-left: 1230px;
+    margin-top: -19px;
+    color: gray;
+    font-size: 15px;
+    font-style: bold;
+}
+
+.boxes2 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    position: absolute;
+    left: 90px;
+    right: 90p;
+}
+
+.boxes2 ul li{
+    display: inline-block;
+    float: left;
+    display: block;
+    padding: 0px;
+}
+
+.boxes2 h5{
+    color: darkblue;
+    font-size: 20px;
+    line-height: 0px;
+
+}
+
+.boxes2 p{
+    color: darkgray;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.box21{
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    background:white;
+    padding: 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.box22 { 
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    background:white;
+    padding: 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.box23 { 
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    background:white;
+    padding: 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.box24 {
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    background:white;
+    padding: 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.box21{
+    margin-right: 50px;
+}
+
+.box22 {
+    margin-right: 50px; 
+ }
+ 
+ .box23 {
+     margin-right: 30px;
+     margin-top: 310px;
+     margin-left: -605px;
+ }
+ 
+ .box24 {
+     margin-right: 30px;
+     margin-top: 310px;
+     margin-left: -300px;
+ }
+ 
+ .text {
+     color: darkblue;
+     font-size: 18px;
+ }
+
+ .minibox1 {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    background:lightblue;
+    padding: 25px 25px 25px 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.minibox2 {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    background:lightblue;
+    padding: 25px 25px 25px 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.minibox3 {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    background:lightblue;
+    padding: 25px 25px 25px 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+.minibox4 {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    background:lightblue;
+    padding: 25px 25px 25px 25px;
+    box-shadow: 15px 15px 15x 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;;
+}
+
+
+
+
+
+
+
